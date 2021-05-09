@@ -10,4 +10,7 @@ Convolutional neural network accelerator (VGG16) for low-latency cloud integrati
 - gcc -O3 -fopenmp -lm ZFC_VGG16_CPU.c -o ZFC_VGG16_CPU.exe
 - ZFC_VGG16_CPU.exe "weight_files.txt" "image_val_list.txt" "results.txt" 
 
+# Experimental Result
+- First experiments on the Intel i7 7700HQ CPU -- 90 second to load weights
+                                               -- 3.7 second per image
 
