@@ -1,0 +1,10 @@
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_1.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_2.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_3.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_4.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_5.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_6.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_7.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_8.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_9.txt
+E:\soc-repo\VGG16-Pretrained-C-master\ILSVRC2012_img_val_txt\ILSVRC2012_val_10.txt
