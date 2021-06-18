@@ -6,10 +6,6 @@ Convolutional neural network accelerator (VGG16) for low-latency cloud integrati
 - At the software stage, we are using the VGG16 pretrained code of the [ZFTURBO](https://github.com/ZFTurbo/VGG16-Pretrained-C). 
 - VGG16's weight files had to be converted to text format to use the pre-trained code. In this direction, besides the weight file provided by [ZFTURBO](https://github.com/ZFTurbo/VGG16-Pretrained-C), we are converting the alternative weight files to text format. The main purpose of this transformation is that the weight file is in high size for the platform we will implement.
 
-# Installation & Usage
-- gcc -O3 -fopenmp -lm ZFC_VGG16_CPU.c -o ZFC_VGG16_CPU.exe
-- ZFC_VGG16_CPU.exe "weight_files.txt" "image_val_list.txt" "results.txt" 
-
 # Experimental Result
 - First experiments on the Intel i7 7700HQ CPU -- 90 second to load weights
                                                -- 3.7 second per image
