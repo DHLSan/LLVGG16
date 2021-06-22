@@ -22,7 +22,7 @@ Right click on design and click Generate Output Products.
 Click on Generate Bitstream
 
 - SDK
-- 
+
 Create new Hello World application project in SDK.
 
 Replace the contents of the Hello world project with /src/c/helloworld.c
