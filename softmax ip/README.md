@@ -2,6 +2,7 @@ This file contains softmax ip created on vivado HLS. By following the steps belo
 
 Vivado 2017.4 Create RTL Project
 Choose ZedBoard Development Kit as destination board
+- Vivado 2017.4
 
 Create block design
 
