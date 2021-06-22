@@ -4,23 +4,23 @@ Vivado 2017.4 Create RTL Project
 Choose ZedBoard Development Kit as destination board
 - Vivado 2017.4
 
-Create block design
+--Create block design
 
-Add ip --> zynq processing system
+--Add ip --> zynq processing system
 
-Click Window --> Add ip catalog --> select ip files which you created with HLS
+--Click Window --> Add ip catalog --> select ip files which you created with HLS
 
-make sure the connections are exactly the same with block_diagram.pdf
+--make sure the connections are exactly the same with block_diagram.pdf
 
-Right click on design file and click Create HDL Wrapper.
+--Right click on design file and click Create HDL Wrapper.
 
-Right click on design and click Generate Output Products.
+--Right click on design and click Generate Output Products.
 
-Click on Generate Bitstream
+--Click on Generate Bitstream
 
-SDK
-Create new Hello World application project in SDK.
+- SDK
+--Create new Hello World application project in SDK.
 
-Replace the contents of the Hello world project with /src/helloworld.c
+--Replace the contents of the Hello world project with /src/helloworld.c
 
-Ready to run.
+--Ready to run.
