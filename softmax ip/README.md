@@ -10,7 +10,7 @@ Choose ZedBoard Development Kit as destination board
 
 --Click Window --> Add ip catalog --> select ip files which you created with HLS
 
---make sure the connections are exactly the same with block_diagram.pdf
+--make sure the connections are exactly the same with softmax_ip.JPG
 
 --Right click on design file and click Create HDL Wrapper.
 
