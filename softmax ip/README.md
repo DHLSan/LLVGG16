@@ -19,6 +19,7 @@ Choose ZedBoard Development Kit as destination board
 --Click on Generate Bitstream
 
 - SDK
+
 --Create new Hello World application project in SDK.
 
 --Replace the contents of the Hello world project with /src/helloworld.c
