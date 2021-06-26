@@ -1,3 +1,11 @@
+# Eskisehir technical university
+# Participants :
+      Büşranur Yılmaz (busranurYilmaz98@gmail.com)
+      Kirman Serdar (kirmans341@gmail.com)
+# Advisor:
+      Ismail San (isan@eskisehir.edu.tr)
+
+
 # LLVGG16
 Convolutional neural network accelerator (VGG16) for low-latency cloud integration.
 
