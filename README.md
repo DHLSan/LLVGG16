@@ -28,4 +28,21 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 
 # Usage
 
+To run any IP from the uploaded folders, you can follow the instructions below.
+
+- Open Vivado 2017.4
+- Create Project
+- Create block design
+- Settings -> IP --> Repository --> add selected IP
+- Add zynq processing system
+- Add selected IP to block diagram
+- Create HDL Wrapper
+- Generate Output Products
+- Generate Bitstream
+- Launch SDK
+- Create application project
+- Add /src/helloworld.c
+- run
+
+
 
