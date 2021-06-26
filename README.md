@@ -1,9 +1,9 @@
 # Eskisehir technical university
 # Participants :
-      Büşranur Yılmaz (busranurYilmaz98@gmail.com)
-      Kirman Serdar (kirmans341@gmail.com)
+   Büşranur Yılmaz (busranuryilmaz98@gmail.com)
+   Kirman Serdar (kirmans341@gmail.com)
 # Advisor:
-      Ismail San (isan@eskisehir.edu.tr)
+   Ismail San (isan@eskisehir.edu.tr)
 
 
 # LLVGG16
@@ -28,4 +28,5 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 - Dense- Add Bias and Relu Flatten - Softmax --> 26.14 second
 
 # Usage
+
 
