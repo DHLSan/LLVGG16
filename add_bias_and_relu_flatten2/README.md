@@ -1,4 +1,4 @@
-This file contains add_bias_and_relu_flatten2 and Softmax Ip created on vivado HLS. By following the steps below, you can include the created ip in your system and run it.
+This file contains add_bias_and_relu_flatten2 on vivado HLS. By following the steps below, you can include the created ip in your system and run it.
 
 - Open Vivado 2017.4
 - Create Project
@@ -6,11 +6,11 @@ This file contains add_bias_and_relu_flatten2 and Softmax Ip created on vivado H
 - Settings -> IP --> Repository --> add selected IP
 - Add zynq processing system
 - Add selected IP to block diagram
-- make sure that 
+
 - Create HDL Wrapper
 - Generate Output Products
 - Generate Bitstream
 - Launch SDK
 - Create application project
 - Add /src/helloworld.c
-- run
+- Run
