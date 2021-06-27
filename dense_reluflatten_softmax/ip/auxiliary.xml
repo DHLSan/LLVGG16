@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="desne_reluflatten_softmax" xd:componentRef="desne_reluflatten_softmax" xd:initiationInterval="2613372578" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CONTROL" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="mem_block1_dense[]" xd:originalName="mem_block1_dense" xd:direction="inout" xd:interfaceRef="s_axi_INPUT" xd:busTypeRef="axilite" xd:offset="0x20000" xd:arraySize="25088" xd:dataWidth="32"/>
+  <xd:arg xd:name="bd1[]" xd:originalName="bd1" xd:direction="in" xd:interfaceRef="s_axi_bias" xd:busTypeRef="axilite" xd:offset="0x4000" xd:arraySize="4096" xd:dataWidth="32"/>
+  <xd:arg xd:name="bd2[]" xd:originalName="bd2" xd:direction="in" xd:interfaceRef="s_axi_bias2" xd:busTypeRef="axilite" xd:offset="0x4000" xd:arraySize="4096" xd:dataWidth="32"/>
+  <xd:arg xd:name="bd3[]" xd:originalName="bd3" xd:direction="in" xd:interfaceRef="s_axi_bias3" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:arg xd:name="class[]" xd:originalName="class" xd:direction="out" xd:interfaceRef="s_axi_OUTPUT" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:arg xd:name="result[]" xd:originalName="result" xd:direction="out" xd:interfaceRef="s_axi_OUTPUT1" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="2613372577" xd:worst-case="2613372577" xd:average-case="2613372577"/>
+  <xd:resourceEstimates xd:LUT="10432" xd:FF="6554" xd:BRAM="94" xd:DSP="42"/>
+</xd:acceleratorMap>
