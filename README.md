@@ -18,8 +18,11 @@ Convolutional neural network accelerator (VGG16) for low-latency cloud integrati
 Since VGG16 architecture is a much larger than our card memory, The entire architecture could not moved to the hardware. The prediction code is divided intoparts and certain parts are arranged on Vivado  HLS and turned into Ip packager. We created a total of 4 IP packagers for the project. Their names are Softmax IP, Add bias and relu flatten2 IP, Softmax - Add bias and relu flatten3 IP and Dense-reluflatten-softmax IP. All IPs created were integrated with zynq processing system connection and axi interconnect and a certain part of the predict code was run on the ARM operating system.
 
 # Experimental Result
-- First experiments on the Intel i7 7700HQ CPU -- 90 second to load weights
-                                               -- 3.7 second per image
+- First experiments on the Intel i7 7700HQ CPU -- 3.7 second per image
+                                               
+- Second experiment on the ARM  --- 304.64 second per image         
+
+           
 - Softmax IP --> 0.001 second
 - Add Bias and Relu Flatten2 IP --> 0.003 second
 - Add Bias and Relu Flatten2-Softmax IP --> 0.0014 second
