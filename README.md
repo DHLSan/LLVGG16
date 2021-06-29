@@ -1,6 +1,8 @@
-#Team number: xohw21-244
+# Competition information
 
-#Project nama: LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration
+Team number: xohw21-244
+
+Project nama: LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration
 
 # University name: Eskisehir Technical University
 
