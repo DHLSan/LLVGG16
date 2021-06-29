@@ -1,12 +1,21 @@
-# Eskisehir Technical University
+#Team number: xohw21-244
+
+#Project nama: LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration
+
+# University name: Eskisehir Technical University
+
+# Advisor:
+   Ismail San (isan@eskisehir.edu.tr)
 
 # Participants :
    Büşranur Yılmaz (busranuryilmaz98@gmail.com)
    
    Kirman Serdar (kirmans341@gmail.com)
-# Advisor:
-   Ismail San (isan@eskisehir.edu.tr)
-   
+
+#Board used: ZedBoard Zynq-7000
+
+#Software version: Vivado 2017.4, Vivado HLS 2017.4
+ 
 # LLVGG16
 Convolutional neural network accelerator (VGG16) for low-latency cloud integration.
 - Our main goal in this study is to create an accelerated neural network for VGG16 and also to provide a low latency output in the FPGA at the level of milliseconds. We will use the Vivado HLS tool to define our hardware accelerators for VGG16 computation through high-level C language implementations. In this direction, we have divided our project into two stages as software and hardware.
