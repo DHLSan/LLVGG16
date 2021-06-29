@@ -11,7 +11,7 @@
    Büşranur Yılmaz (busranuryilmaz98@gmail.com)
    
    Kirman Serdar (kirmans341@gmail.com)
-
+# 
 #Board used: ZedBoard Zynq-7000
 
 #Software version: Vivado 2017.4, Vivado HLS 2017.4
