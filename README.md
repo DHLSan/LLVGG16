@@ -6,15 +6,13 @@
 
 **Advisor:** Ismail San (isan@eskisehir.edu.tr)
 
-**Participants:** Büşranur Yılmaz (busranuryilmaz98@gmail.com)
-   
-  Kirman Serdar (kirmans341@gmail.com)
+**Participants:** Büşranur Yılmaz (busranuryilmaz98@gmail.com)- Kirman Serdar (kirmans341@gmail.com)
 
-# Tools
+**Tools**
 
-Board used: ZedBoard Zynq-7000
+**Board used:** ZedBoard Zynq-7000
 
-Software version: Vivado 2017.4, Vivado HLS 2017.4
+**Software version:** Vivado 2017.4, Vivado HLS 2017.4
  
 # LLVGG16
 Convolutional neural network accelerator (VGG16) for low-latency cloud integration.
