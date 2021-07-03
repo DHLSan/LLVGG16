@@ -1,4 +1,4 @@
-#Team number: xohw21-244
+###### Team number: xohw21-244
 
 #Project name: LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration
 
