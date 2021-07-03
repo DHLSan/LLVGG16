@@ -2,14 +2,13 @@
 
 ## Project name: LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration
 
-## University name: Eskisehir Technical University
+**University name:** Eskisehir Technical University
 
 **Advisor:** Ismail San (isan@eskisehir.edu.tr)
 
-# Participants
-   Büşranur Yılmaz (busranuryilmaz98@gmail.com)
+**Participants:** Büşranur Yılmaz (busranuryilmaz98@gmail.com)
    
-   Kirman Serdar (kirmans341@gmail.com)
+  Kirman Serdar (kirmans341@gmail.com)
 
 # Tools
 
