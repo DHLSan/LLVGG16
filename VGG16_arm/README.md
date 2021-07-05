@@ -1,4 +1,4 @@
-This file contains VGG16_predct.c. By following the steps below,
+The VGG16_arm folder is the source prepared for the source code we used in the project to run on the arm operating system. This file contains VGG16_predct.c. By following the steps below,
 
 - Open Vivado 2017.4
 - Create Project
