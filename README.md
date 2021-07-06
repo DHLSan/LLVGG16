@@ -30,11 +30,17 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 - Second experiment on the ARM  --- 304.64 second per image         
 
            
-- Softmax IP --> 0.001 second
-- Add Bias and Relu Flatten2 IP --> 0.003 second
-- Add Bias and Relu Flatten2-Softmax IP --> 0.0014 second
-- Add Bias and Relu Flatten2-Softmax IP and Add Bias and Relu Flatten2 IP --> 0.0036 second
-- Dense- Add Bias and Relu Flatten - Softmax IP --> 26.14 second
+- Softmax IP --> 0.000131 second
+- Add Bias and Relu Flatten2 IP --> 0.000123 second
+- Add Bias and Relu Flatten3-Softmax IP --> 0.000121 second
+- Add Bias and Relu Flatten3-Softmax IP and Add Bias and Relu Flatten2 IP --> 0.000244 second
+- Dense- Add Bias and Relu Flatten - Softmax IP --> 26.89 second
+
+- Softmax Function --> 0.000317 second
+- Add Bias and Relu Flatten2 Function --> 0.000101 second
+- Add Bias and Relu Flatten3-Softmax Function --> 0.000543 second
+- Add Bias and Relu Flatten3-Softmax IP and Add Bias and Relu Flatten2 Function --> 0.000644 second
+- Dense- Add Bias and Relu Flatten - Softmax  --> 12.59 second
 
 # Usage
 
