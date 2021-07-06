@@ -10,7 +10,7 @@ The VGG16_arm folder is the source prepared for the source code we used in the p
 - Create application project
 - Extract src.rar
 - Replace code hello world.c with code VGG16 predict.c
-- Add /src/wc1.h , /src/wc2.h, /src/wc3.h, /src/wc4.h, /src/wc5.h, /src/wc6.h -- /src/wc12.h, /src/wc13.h in the dense_reluflatten_softmax folder
-- Add /src/weigh_bc.h in the dense_reluflatten_softmax folder
-- Add /src/weight_im.h in the dense_reluflatten_softmax folder
+- Add /src/wc1.h , /src/wc2.h, /src/wc3.h, /src/wc4.h, /src/wc5.h, /src/wc6.h -- /src/wc12.h, /src/wc13.h 
+- Add /src/weigh_bc.h 
+- Add /src/weight_im.h 
 - Run VGG16_predict.c(system debugger)
