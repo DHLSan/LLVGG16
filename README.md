@@ -36,6 +36,7 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 - Add Bias and Relu Flatten3-Softmax IP and Add Bias and Relu Flatten2 IP --> 0.000244 second
 - Dense- Add Bias and Relu Flatten - Softmax IP --> 26.89 second
 
+
 - Softmax Function --> 0.000317 second
 - Add Bias and Relu Flatten2 Function --> 0.000101 second
 - Add Bias and Relu Flatten3-Softmax Function --> 0.000543 second
