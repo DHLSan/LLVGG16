@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="add_bias_and_relu_flatten2" xd:componentRef="add_bias_and_relu_flatten2" xd:initiationInterval="12300" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CONTROL" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="mem_block1_dense[]" xd:originalName="mem_block1_dense" xd:direction="inout" xd:interfaceRef="s_axi_INPUT" xd:busTypeRef="axilite" xd:offset="0x4000" xd:arraySize="4096" xd:dataWidth="32"/>
+  <xd:arg xd:name="bd2[]" xd:originalName="bd2" xd:direction="in" xd:interfaceRef="s_axi_parameter" xd:busTypeRef="axilite" xd:offset="0x4000" xd:arraySize="4096" xd:dataWidth="32"/>
+  <xd:arg xd:name="memblock1_dense[]" xd:originalName="memblock1_dense" xd:direction="out" xd:interfaceRef="s_axi_OUTPUT" xd:busTypeRef="axilite" xd:offset="0x4000" xd:arraySize="4096" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="12299" xd:worst-case="12299" xd:average-case="12299"/>
+  <xd:resourceEstimates xd:LUT="1357" xd:FF="972" xd:BRAM="24" xd:DSP="2"/>
+</xd:acceleratorMap>

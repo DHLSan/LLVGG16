@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="add_bias_and_relu_flatten3_Softmax" xd:componentRef="add_bias_and_relu_flatten3_Softmax" xd:initiationInterval="12061" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CONTROL" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="mem_block2_dense[]" xd:originalName="mem_block2_dense" xd:direction="inout" xd:interfaceRef="s_axi_INPUT" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:arg xd:name="bd3[]" xd:originalName="bd3" xd:direction="in" xd:interfaceRef="s_axi_parameter" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:arg xd:name="class[]" xd:originalName="class" xd:direction="out" xd:interfaceRef="s_axi_OUTPUT" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:arg xd:name="result[]" xd:originalName="result" xd:direction="out" xd:interfaceRef="s_axi_OUTPUT" xd:busTypeRef="axilite" xd:offset="0x2000" xd:arraySize="1000" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="12060" xd:worst-case="12060" xd:average-case="12060"/>
+  <xd:resourceEstimates xd:LUT="6202" xd:FF="4204" xd:BRAM="8" xd:DSP="28"/>
+</xd:acceleratorMap>
