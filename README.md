@@ -54,21 +54,59 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 
 # Usage
 
-To run any IP from the uploaded folders, you can follow the instructions below.
+Step 0: This folder in github contains the source code, weight and image header files necessary for the VGG16 model to run on the ARM operating system, you can follow the instructions below.
 
-- Open Vivado 2017.4
-- Create Project
-- Create block design
-- Settings -> IP --> Repository --> add selected IP
-- Add zynq processing system
-- Add selected IP to block diagram
-- Create HDL Wrapper
-- Generate Output Products
-- Generate Bitstream
-- Launch SDK
-- Create application project
-- Add /src/helloworld.c
-- run
+1) Open Vivado 2017.4
+2) Create Project
+3) Create block design
+4) Add zynq processing system
+5) Launch SDK
+6) Create application project
+7) Extract src.rar
+8) Replace code hello world.c with code VGG16_predict.c
+9) Add /src/wc1.h , /src/wc2.h, /src/wc3.h, /src/wc4.h, /src/wc5.h, /src/wc6.h -- /src/wc12.h , /src/wc13.h
+10) Add /src/weigh_bc.h
+11) Add /src/weight_im.h
+12) Run VGG16_predict.c(system debugger)
+
+---You can review the following steps for other IP folders in github repo.---
+
+Step 1: Creating IP with HLS
+
+1) Open Vivado HLS 2017.4
+2) Create New Project
+3) Right click on Source and click add files.
+4) Select Softmax/HLS/Softmax_SOURCE.C for softmax IP
+5) Select add_bias_and_relu_flatten2/HLS/Bias_reluflat2_SOURCE.c for add_bias_and_relu_flatten2 IP.
+6) Select add_bias_and_relu_flatten3_softmax/HLS/addBias_reluflatten3_source.c for Add_bias_and_relufatten3_softmax IP
+7) Select dense-reluflatten-softmax/HLS/dense_reluflat_soft_SOURCE.c for Dense_reluflatten_Softmax IP.
+8) Name of the top function should be "Softmax" for Softmax IP
+9) Name of the top function should be "add_bias_and_relu_flatten2" for Add_bias_and_reluflatten2 IP.
+10) Name of the top function should be "dense_reluflatten_softmax" for dense_reluflatten_softmax IP
+11) Name of the top function should be "add_bias_and_relu_flatten3_softmax" for Add_bias_and_reluflatten3-Sotmax IP.
+12) Click C synthesis.
+13) When synthesis is finished, click Export RTL.
+
+Step 2 : Creating SoC Design with IPs 
+
+1) Open Vivado 2017.4
+2) Create Project
+3) Create block design
+4) Settings -> IP --> Repository --> add selected IP
+5) Add zynq processing system
+6) Add selected IP to block diagram
+7) Create HDL Wrapper
+8) Generate Output Products
+9) Generate Bitstream
+10) Export hardware (include bitstream should be marked)
+11) Launch SDK.
 
 
+Step 3 : Test system on SDK
+
+1) Create application project
+2) Add /src/hardware_software_srcode.c
+3) Run
+
+!!!If you have Vivado version 2017.4, you can add the IP folders in the Github repository to your project by following the Settings -> IP --> Repository --> add selected IP instruction.
 
