@@ -54,7 +54,7 @@ Since VGG16 architecture is a much larger than our card memory, The entire archi
 
 # Usage
 
-Step 0: This folder in github contains the source code, weight and image header files necessary for the VGG16 model to run on the ARM operating system, you can follow the instructions below.
+Step 0: VGG16_arm folder in github contains the source code, weight and image header files necessary for the VGG16 model to run on the ARM operating system, you can follow the instructions below.
 
 1) Open Vivado 2017.4
 2) Create Project
